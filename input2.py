@@ -16,6 +16,7 @@ class MyGridLayout(GridLayout):
 
 		# Create a second gridlayout
 		self.top_grid = GridLayout()
+		# Set number of columns in our new top_grid
 		self.top_grid.cols = 2
 
 
