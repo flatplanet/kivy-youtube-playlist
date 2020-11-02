@@ -12,7 +12,9 @@ class MyGridLayout(GridLayout):
 
 		# Set columns
 		self.cols = 1
-		self.row_force_default = True
+
+		# Set default size of cols and rows
+		self.row_force_default=True
 		self.row_default_height=120
 		self.col_force_default=True
 		self.col_default_width=100
