@@ -3,7 +3,10 @@ from kivy.uix.widget import Widget
 from kivy.properties import ObjectProperty
 from kivy.lang import Builder
 
+# Designate Our .kv design file 
 Builder.load_file('whatever.kv')
+
+# Just load our .kv design stuff right here
 '''Builder.load_string(""" 
 
 <MyGridLayout>
