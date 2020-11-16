@@ -1,0 +1,41 @@
+<Button>
+	font_size: 32
+	background_normal: ''
+	background_color: (0,0,1,1)
+
+<TextInput>
+	background_color: (150/255,150/255,150/255,1)	
+
+
+
+<MyLayout>
+	BoxLayout:
+		orientation: "vertical"
+		size: root.width, root.height
+		padding:10
+		spacing:10
+
+		Label:
+			text: "Name"
+			font_size: 45
+			background_color: (182/255, 66/255, 245/255, 1)
+			canvas.before:
+				Color:
+					rgba: self.background_color
+				Rectangle:
+					size: self.size
+					pos: self.pos
+			# Text Properties
+			color: (0,1,0,1)
+			bold: True
+			italic: True
+			outline_color: (0,0,1)
+			outline_width: 10
+
+		TextInput:
+			multiline: False
+
+	
+		Button:
+			text: "Clear"
+			background_color: (1,0,0,1)
