@@ -1,0 +1,23 @@
+<MyLayout>
+	canvas.before:
+        Color:
+            rgba: (240/255, 240/255, 240/255, 1)
+        Rectangle:
+            pos: self.pos
+            size: self.size
+	BoxLayout:
+		orientation: "vertical"
+		size: root.width, root.height
+
+		
+		padding: 50
+		spacing: 20
+
+		Button:
+			text: "Hello World!"
+		
+		Button:
+			text: "Goodbye World!"
+
+		
+		
